@@ -7,7 +7,7 @@ import postRoutes from './routes/post.route.js';
 import commentRoutes from './routes/comment.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
-var cors = require('cors);
+var cors = require('cors');
 dotenv.config();
 
 mongoose
