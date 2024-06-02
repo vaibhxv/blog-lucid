@@ -22,6 +22,7 @@ mongoose
 const __dirname = path.resolve();
 
 const app = express();
+app.use(cors());
 var corsOptions = {
   origin: 'https://blog-lucid-2.onrender.com',
   optionsSuccessStatus: 200
