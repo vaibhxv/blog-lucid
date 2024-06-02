@@ -11,7 +11,7 @@ var cors = require('cors);
 dotenv.config();
 
 mongoose
-  .connect(process.env.MONGO)
+.connect(process.env.MONGO)
   .then(() => {
     console.log('MongoDb is connected');
   })
